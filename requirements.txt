@@ -3,5 +3,5 @@ tqdm==4.62.1
 soundfile==0.10.3.post1
 unidecode==1.1.1
 numba==0.56.2
-librosa==0.7.2
+librosa==0.9.2
 mpi4py>=3.0.0
