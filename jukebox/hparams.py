@@ -33,7 +33,7 @@ easy = Hyperparams(
 )
 HPARAMS_REGISTRY["easy"] = easy
 
-REMOTE_PREFIX = '/notebooks/'
+REMOTE_PREFIX = '/'
 
 # Model hps
 vqvae = Hyperparams(
