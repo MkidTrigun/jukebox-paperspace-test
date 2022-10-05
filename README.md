@@ -1,6 +1,8 @@
 **This is a test fork to see if altering some configurations can allow this to run on Paperspace notebooks.**
 
-**Current status: IN PROGRESS**
+**Current status: Using Python3 kernel, have been able to run 5b_lyrics model (for Level 2 generation, upsampling in progess) on Free-A4000 tier of GPU (requiring Paperspace Pro subscription)**
+
+--------------------------------------------------------------------------------------------------------------
 
 **Status:** Archive (code is provided as-is, no updates expected)
 
