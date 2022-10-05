@@ -33,7 +33,7 @@ easy = Hyperparams(
 )
 HPARAMS_REGISTRY["easy"] = easy
 
-REMOTE_PREFIX = 'https://openaipublic.azureedge.net/'
+REMOTE_PREFIX = '/notebooks'
 
 # Model hps
 vqvae = Hyperparams(
