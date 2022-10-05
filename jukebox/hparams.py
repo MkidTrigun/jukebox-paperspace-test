@@ -33,7 +33,7 @@ easy = Hyperparams(
 )
 HPARAMS_REGISTRY["easy"] = easy
 
-REMOTE_PREFIX = '/'
+REMOTE_PREFIX = 'https://openaipublic.azureedge.net/'
 
 # Model hps
 vqvae = Hyperparams(
@@ -147,7 +147,7 @@ prior_5b_lyrics = Hyperparams(
     n_tokens=512,
     prime_loss_fraction=0.4,
     merged_decoder=True,
-    restore_prior='https://openaipublic.azureedge.net/jukebox/models/5b_lyrics/prior_level_2.pth.tar',
+    restore_prior=REMOTE_PREFIX + 'jukebox/models/5b_lyrics/prior_level_2.pth.tar',
     fp16_params=True,
     alignment_layer=68,
     alignment_head=2,
